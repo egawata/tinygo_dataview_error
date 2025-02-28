@@ -18,7 +18,7 @@ GOOS=js GOARCH=wasm tinygo build -o wasm.wasm ./main.go
 go run localserver/server.go
 ~~~
 
-- Open `index.html` on your browser.
+- Open http://localhost:8088 on your browser.
 - Open `DevTools` and switch to `Console` tab.
 - Push `Run` Button several times.
 - After pushing button 22 times or so, an error message like the followings will appear:
